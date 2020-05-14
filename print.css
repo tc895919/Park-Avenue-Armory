@@ -1,7 +1,6 @@
 BODY { font-family: Arial, helvetica, verdana, sans-serif; font-size: 100%; }
 #SiteWrapper { display: block;  padding: 10px 0; margin: 0 auto; border-top: 4px solid #000; width: 100%; }
 
-/* Navigation & Header Treatment */
 #SectionHeader { margin: 75px 0 5px 0; }
 #RightSectionHeader { margin: 77px 0 5px 0; width: 227px; }
 
@@ -29,7 +28,6 @@ A.Button:hover { color: #EB008B; border-bottom: none; }
 
 #Content H4 { font-size: 90%; }
 
-/* Footer Treatment */
 #Footer, #Footer A { color: #666; }
 #Footer A:hover { border-bottom: 1px dotted #EB008B;  color: #EB008B; }
 #Footer { position: relative; top: 50px; padding: 5px 0 0 0; margin-top: 10px; width: 900px; border-top: 1px solid #000;  display: block; clear: both; }
@@ -37,7 +35,6 @@ A.Button:hover { color: #EB008B; border-bottom: none; }
 #Footer LI.Txt { border-right: 1px solid #666; padding-right: 8px; margin-right: 8px; }
 #Footer LI { padding-right: 20px; text-transform: uppercase; margin: 0; display: inline; list-style-type: none;  }
 
-/* Links Treatment */
 A { letter-spacing: .08em;  text-decoration: none; text-transform: uppercase; color: #000; padding-bottom: 1px; }
 P A, DD A { border-bottom: 1px dotted #000; }
 A:hover { border-bottom-color: #EB008B; color: #EB008B; }
@@ -45,19 +42,17 @@ IMG A, A IMG { border: none; }
 P { font-size: 80%;  margin-bottom: 15px; color: #555; }
 P A { font-size: 80%; }
 
-/* Utilities */
 .Left { float: left; }
 .Right { float: right; }
 IMG.Left { margin: 0 10px 10px 0; }
 .PinkText { color: #EB008B; }
 H1.PinkText { font-family: 'Arial Black', Arial; font-size: 185%; font-weight: bold; }
 
-/* Columns Treatment */
 #Columns { margin: 60px 0 0 0; padding-top: 60px; width: 100%; display: block; clear: both; }
 
 #Columns #Column1 { width: 100%; padding-top: 10px; float: left; }
 #Columns #Column1 #Content { width: 679px; float: right; margin: 10px 0 20px 0; }
-#Columns #Column1 H2 { padding: 10px 0 5px 0; } 
+#Columns #Column1 H2 { padding: 10px 0 5px 0; }
 #Columns #Column1 #Content UL { font-size: 80%; padding-left: 20px; list-style-type: square; color: #999; }
 #Columns #Column2 { padding-top: 10px; width: 289px; float: right; }
 #Columns #Column2 UL { padding-top: 10px; margin-top: 10px; list-style: none; }
@@ -81,28 +76,15 @@ H1.PinkText { font-family: 'Arial Black', Arial; font-size: 185%; font-weight: b
 #Column1 UL { font-size: 80%; color: #333; margin-bottom: 10px; }
 #Column1 LI { padding: 0; margin: 0 0px 5px 20px; }
 #Columns DL, #Columns UL { font-size: 85%; }
-#Column1 DT { padding-top: 5px; } 
-#Column1 DD { margin-bottom: 10px; } 
+#Column1 DT { padding-top: 5px; }
+#Column1 DD { margin-bottom: 10px; }
 
-/* Home Treatment */
 #Home.Index #Columns { margin: 50px 0 0 0; padding: 50px 0 0 0; }
 #Home.Index #Column2 DD { margin: 10px 0 15px 0; color: #666; font-size: 105%; }
 #Home.Index #Column2 DD A { font-size: 85%; }
 #Home.Index #Column2 P { color: #333; }
 #Home.Index #Column1 { width: 596px; }
 #Home #Slideshow { width: 596px; height: 386px; overflow: hidden; background-color: #000; }
-
-#Gallery #Column1 H3 {font-size: 140%;}
-#Gallery #Column1 .Content { padding-top: 75px; display: block; clear: both; }
-#Gallery #Column1 { width: 625px; }
-#Gallery #Column1 .Item.Right { float: right; margin-right: 15px; }
-#Gallery #Column1 .Item P { margin: 0; } 
-#Gallery #Column1 .Item { float: left; width: 300px; margin: 10px 10px 10px 0; }
-#Gallery.Index #Column1 #s1 { padding: 0; }
-#Gallery.Index #Column1 .Item A { margin: 0; padding: 0; }
-#Gallery.Index #Column1 .SmallSlideshow { margin: 11px 0 8px 0; padding: 0; width: 292px; height: 186px; overflow:hidden;}
-#Gallery.Listing #Column1 .SmallSlideshow { margin: 0px 0 8px 0; padding: 0; width: 292px; height: 186px; overflow:hidden;}
-#Gallery.Detail #Column1 #LargeSlideshow { position: absolute: top: 0; width: 596px; height: 386px; overflow: hidden; }
 
 #nav { position: absolute; top: 385px;  width: 620px; margin: 15px 0 0 0;  }
 #nav li { width: 25px; float: left; list-style: none; margin: 3px 2px 0px 2px;  }
@@ -111,12 +93,12 @@ H1.PinkText { font-family: 'Arial Black', Arial; font-size: 185%; font-weight: b
 #nav a:focus { outline: none; }
 #nav img { border: none; display: block; margin: 0; padding: 0;}
 
-/* About Us Treatment */
+
 #AboutUs.Index #ThreeColumns LI { list-style: none; }
 #AboutUs.Index #ThreeColumns DD { margin-bottom: 15px; }
 #AboutUs #Columns DL { font-size: 80%; }
 #AboutUs #Columns DL A { font-size: 80%; }
-#AboutUs #Columns #Column1 DD { padding-bottom: 0px; } 
+#AboutUs #Columns #Column1 DD { padding-bottom: 0px; }
 #AboutUs #Columns #Column2 DT { padding-top: 3px; }
 #AboutUs #Columns #Column1 DT { padding-top: 8px; }
 #AboutUs #Columns #Column1 DL { margin-bottom: 45px; }
@@ -162,7 +144,7 @@ H1.PinkText { font-family: 'Arial Black', Arial; font-size: 185%; font-weight: b
 #ProgramEvents #Content H4 { padding-bottom: 5px; text-transform: none; font-style: italic; }
 #ProgramEvents #Content .Item { padding-bottom: 20px; }
 #ProgramEvents .Photo { margin-top: 10px; }
-#ProgramEvents.Calendar TD .CellHeader { color: #CCC; background-color: #333; font-size: 80%; padding: 3px 5px; } 
+#ProgramEvents.Calendar TD .CellHeader { color: #CCC; background-color: #333; font-size: 80%; padding: 3px 5px; }
 #ProgramEvents.Calendar TD .CellHeader A { color: #FFF; }
 #ProgramEvents.Calendar .calendarCell {  background-color: #ccc; }
 #ProgramEvents.Static #Column1 DL { color: #555; }
@@ -171,7 +153,7 @@ H1.PinkText { font-family: 'Arial Black', Arial; font-size: 185%; font-weight: b
 #ProgramEvents.Index #Column1 DD A { font-size: 85%; }
 #ProgramEvents #Column2 .Item { padding: 50px 0 0 25px; }
 #ProgramEvents #Column2 .Item P { padding: 0 0 10px 0; }
-#ProgramEvents.Calendar .calendarCell .Entry { padding: 5px; font-size: 75%; } 
+#ProgramEvents.Calendar .calendarCell .Entry { padding: 5px; font-size: 75%; }
 #ProgramEvents.Calendar .calendarCell .Entry A { color: #333; }
 #ProgramEvents.Calendar .calendarCell .Entry A:hover { color: #000; }
 #ProgramEvents.Calendar .calendarBlank { background-color: #bebebe; color: #999; }
@@ -238,6 +220,6 @@ H1.PinkText { font-family: 'Arial Black', Arial; font-size: 185%; font-weight: b
 #GetInvolved.Index #Column1 H2.Intro {margin: 0px; padding: 10px 0 0 0; }
 #GetInvolved.Index #Column1 { width: 610px; }
 #GetInvolved.Index #Column1 .Item.Right { float: right; }
-#GetInvolved.Index #Column1 .Item P { margin: 0 0 10px 0; } 
+#GetInvolved.Index #Column1 .Item P { margin: 0 0 10px 0; }
 #GetInvolved.Index #Column1 .Item .Button {  }
 #GetInvolved.Index #Column1 .Item { float: left; width: 300px; margin: 10px 0 15px 0; }
